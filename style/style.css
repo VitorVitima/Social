@@ -14,13 +14,24 @@ main {
     position: relative;
     height: 100vh;
     background-color: yellow;
+
+    background: no-repeat center top fixed url('../imagens/fundo-madeira.jpg');
+    background-size: cover;
 }
 section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    height: 500px;
-    width: 500px;
-    background-color: blue;
+    transform: translate(-50%, -50%) ;
+    height: 625px;
+    width: 310px;
+    background: no-repeat url('../imagens/frame-iphone.png');
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 23px;
+    width: 265px;
+    height: 470px;
 }
