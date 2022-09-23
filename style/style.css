@@ -29,9 +29,9 @@ section#telefone {
 iframe#tela {
     position: relative;
     top: 80px;
-    left: 23px;
-    width: 265px;
-    height: 470px;
+    left: 21.5px;
+    width: 267.7px;
+    height: 471px;
 }
 section div {
     background-color: aqua;
@@ -41,8 +41,12 @@ section#redesSociais {
     padding-right: 50px;
 
 }
+section#redesSociais a {
+    cursor: default ;
+}
 section#redesSociais img {
-    display: block;
+    cursor: pointer;
+
     width: 50px;
 
     margin-left: 99%;
@@ -55,6 +59,6 @@ section#redesSociais > a > img:hover {
     transform: translate(-10px, -2px);
     box-shadow: 10px 2px 1px rgba(0, 0, 0, 0.199) ;
     
-    transition: 0.4s;
+    transition: 0.2s;
     transition-delay: 0.1s;
 }
